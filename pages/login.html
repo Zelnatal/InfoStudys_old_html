@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <title>INFOSTUDYS</title>
+            <link rel="stylesheet" href="../css/login.css">
+            <script src="../js/head.js"></script>
+            <script src="../js/high-contrast.js"></script>
+            <link rel="stylesheet" href="../css/contrast.css">
+        </head>
+        <body>
+            <div class="div_lado">
+                <div id="div_imagem">
+                    <img src="../images/login_1.png" alt="Imagem Não encontrado" width="100%">
+                </div>
+                <div id="div_login">
+                    <div id="div_header">
+                        <img src="../images/logo.jpeg" alt="Não encontrada" height="100px">
+                        <audio autoplay="autoplay" controls="controls" style="float: right; padding-top: 50px;" accesskey="y">
+                            <source src="../audio/2.mp4" type="audio/mp4" />
+                            </audio>
+                        <div id="div_ace">
+                            <p style="text-align: right; padding-top: 8px;">Acessibilidade  <button class="buttonClass" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">|A|</button> <button class="buttonClass" name="increase-font" id="increase-font" title="Aumentar fonte">|A+|</button> <button class="buttonClass" name="decrease-font" id="decrease-font" title="Diminuir fonte">|A-|</button></p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div id="div_forms">
+                            <center>
+                            <form action="../pages/inicial.html">
+                            <label for="user">Usuário</label>
+                            <input type="text" name="user" id="user" accesskey="u" required><br><br>
+                            <label for="password">Senha</label>
+                            <input type="password" name="password" id="password" accesskey="s" required><br>
+                            <p>Ainda não possui conta? <a href="../pages/sign_up.html" accesskey="c"><strong>se cadastre!</strong></a></p>
+                            <input class="buttonAprender" type="submit" value="Entrar" accesskey="p">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>

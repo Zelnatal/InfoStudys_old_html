@@ -1,0 +1,110 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("../OpenSans-Light.ttf");
+}
+
+.div_lado{
+    display: flex;
+    justify-content: space-between;
+}
+#icons{
+    display: flex;
+}
+
+#learn{
+    text-align: right;
+}
+
+#div_buttons{
+    display: flex;
+    justify-content: space-between;
+    align: right;
+}
+
+#div_azul{
+    width: 75%;
+}
+
+#div_aprenda{
+    width: 50%;
+}
+
+.element{
+    width: 330px;
+    height: 250px;
+    display: block;
+    background: rgb(62, 90, 251);
+    margin: 100px auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.5s;
+    float: right;
+}
+.element:hover{
+    transform: scale(1.2);
+}
+
+#div_audio{
+    margin: auto;
+    width: 40%;
+    border: solid rgb(218, 15, 15);
+}
+
+body {
+    background-image: url("../images/background_index.jpeg");
+    background-size: 108%;
+    background-repeat: no-repeat;
+    font-family: 'OpenSans';
+    margin: 0;
+}
+
+#div_header{
+    height: 150px;
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+#div_ace{
+    text-align: right;
+    width: 100%;
+    background-color: #1d4d77;
+    height: 40px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.buttonClass {
+    width:50px;
+    height:20px;
+    border-width:1px;
+    color:#fff;
+    border-color:#1f2f47;
+    border-top-left-radius:17px;
+    border-top-right-radius:17px;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius:17px;
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    text-shadow:inset 0px 1px 0px #263666;
+    background-color: rgb(2, 2, 112);
+    position: relative;
+    bottom: 2px;
+}
+
+.buttonAprender {
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(rgb(2, 2, 112), rgb(3, 3, 168));
+} 
+.buttonAprender:hover {
+    background:linear-gradient(rgb(2, 53, 112), rgb(3, 3, 168));
+}
